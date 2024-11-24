@@ -1,0 +1,64 @@
+
+
+
+.list-circle {
+  list-style: disc;
+  list-style-position: inside;
+  direction: rtl;
+}
+
+
+.container{
+
+}
+
+/* @media (min-width : 350px){
+  .container{
+      max-width: 350px;
+      margin: 0 auto;
+  }
+
+}
+@media (min-width : 576px){
+  .container{
+      max-width: 576px;
+      margin: 0 auto;
+  }
+
+  
+}
+@media (min-width : 640px){
+  .container{
+      max-width: 640px;
+      margin: 0 auto;
+  }
+  
+}
+
+@media (min-width : 768px){
+  .container{
+      max-width: 768px;
+      margin: 0 auto;
+  }
+}
+@media (min-width : 1024px){
+  .container{
+      max-width: 1024px;
+      margin: 0 auto;
+
+  }
+}
+@media (min-width : 1280px){
+  .container{
+      max-width: 1280px;
+      margin: 0 auto;
+
+  }
+}
+@media (min-width : 1536px){
+  .container{
+      max-width: 1536px;
+      margin: 0 auto;
+
+  }
+} */
