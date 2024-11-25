@@ -62,3 +62,29 @@
 
   }
 } */
+.download {
+  position: relative;
+  display: inline-block; 
+  padding: 10px 20px; 
+}
+
+.download::after {
+  position: absolute;
+  content: '';
+  background-image: url('/public/download.png');
+  background-size: cover; /* لضمان تغطية الصورة */
+  background-repeat: no-repeat;
+  width: 40px; /* عرض الصورة */
+  height: 40px; /* ارتفاع الصورة */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* وضع الصورة خلف النص */
+}
+
+.no-hover:hover {
+  background-color: #F9CE29 !important; 
+  border : none !important ;
+  color : black !important ;
+}
+

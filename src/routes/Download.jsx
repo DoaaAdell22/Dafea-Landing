@@ -3,20 +3,21 @@ import { Image } from 'antd'
 const Download = () => {
   return (
     <div className='bg-[black]  '>
-        <div className='px-5 py-20 mt-[-5px] mx-auto container flex flex-col justify-center items-center gap-10'>
+        <div className='px-5 py-20 mt-[-5px] mx-auto container flex flex-col justify-center items-center gap-8'>
+            <img src='/Soft Star.png' className='w-10 h-10' />
             <div className='felx flex-col items-center justify-center text-center  lg:w-[588px]'>
-                <h1 className='text-[32px] text-[#F9CE29]'>مميزاتنا لا تتوقف عند هذا الحد! هناك المزيد والمزيد لعملائنا المميزين</h1>
-                <p className='text-[#C8C8C8] mt-4'>مع دافع، يمكنك الاستمتاع بمجموعة واسعة من المكافآت والعروض المستمرة التي تجعل تجربتك المالية أكثر فائدة وإثارة.</p>
+                <h1 className='md:text-[32px] text-[20px] text-[#F9CE29]'>مميزاتنا لا تتوقف عند هذا الحد! هناك المزيد والمزيد لعملائنا المميزين</h1>
+                <p className='text-[#C8C8C8] text-[14px] mt-4'>مع دافع، يمكنك الاستمتاع بمجموعة واسعة من المكافآت والعروض المستمرة التي تجعل تجربتك المالية أكثر فائدة وإثارة.</p>
             </div>
             <div className='flex flex-col justify-center items-center gap-6'>
-                <div className='flex relative justify-center '>
-                <Image src='/download.png' className='relative translate-x-[-60px] translate-y-[-30px] '/>
-                <h2 className='text-[#F9CE29] text-[28px] '>حمل تطبيق دافع الآن</h2> 
+                <div className='flex relative justify-center items-center download'>
+                <img src='/download.png' className='relative sm:translate-x-[-130px] sm:translate-y-[20px] translate-x-[-90px] translate-y-[-5px] w-18 h-14  '/>
+                <h2 className='text-[#F9CE29] md:text-[28px] text-[20px]'>حمل تطبيق دافع الآن</h2> 
                 </div>
                 <div className='flex justify-center items-center gap-5'>
-                    <a><Image src='/Badge.png' width={150} /></a>
-                    <a><Image src='/appstore.png' width={150} /></a>
-                    <a><Image src='/googleplay.png' width={150} /></a>
+                    <a><img src='/Badge.png' className=' h-10 w-18' /></a>
+                    <a><img src='/appstore.png' className=' h-10 w-18' /></a>
+                    <a><img src='/googleplay.png' className=' h-10 w-18' /></a>
                 </div>
             </div>
             

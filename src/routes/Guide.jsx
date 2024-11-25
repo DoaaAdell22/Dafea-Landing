@@ -5,7 +5,7 @@ const Guide = () => {
     <div className="bg-[rgba(249,206,41,0.1)]">
         <div className='p-5 pb-0 mx-auto container flex flex-col justify-center items-center'>
             <div className='flex flex-col justify-center items-center gap-5 text-center'>
-                <h1 className='text-[#F9CE29] md:text-[18px]'>كيفية تشغيل التطبيق</h1>
+                <h1 className='text-[#F9CE29] md:text-[18px] text-[20px]'>كيفية تشغيل التطبيق</h1>
                 <p className='lg:text-[32px]  md:text-[18px] text-[16px]  text-[#333333]'>خطوات سهلة وبسيطة لإنشاء حساب واستخدام التطبيق</p>
             </div>
             <div className='flex flex-col-reverse md:flex-row justify-between md:items-start items-center gap-6 text-center my-10 md:h-[220px]'>
@@ -36,10 +36,10 @@ const Guide = () => {
                     </ul>
                 </div>
             </div>
-            <div className='grid sm:grid-cols-2 grid-cols-1 md:grid-cols-3 justify-between gap-12 items-center mt-10'>
-                <div className='bg-bg1 bg-cover bg-center'><Image src='/orders.png' className='w-[324px]' /></div>
-                <div className='bg-bg2 bg-cover bg-center'><Image src='/dafea.png' className='w-[324px]'  /></div>
-                <div className='bg-bg3 bg-cover bg-center'><Image src='/login.png' className='w-[324px]' /></div>
+            <div className='grid  grid-cols-3  justify-between gap-12 items-center mt-10'>
+                <div className='bg-bg1 bg-cover bg-center'><Image src='/orders.png' className='md:w-[324px] w-[150px] ' /></div>
+                <div className='bg-bg2 bg-cover bg-center'><Image src='/dafea.png' className='md:w-[324px]  w-[150px]'  /></div>
+                <div className='bg-bg3 bg-cover bg-center'><Image src='/login.png' className='md:w-[324px]  w-[150px]' /></div>
             </div>
         </div>
     </div>
