@@ -27,7 +27,7 @@ const Header = () => {
       
     return (
     <div className="bg-[rgba(249,206,41,0.1)]">
-        <div className="flex md:flex-row flex-row-reverse  justify-between   items-center gap-5 p-5 container mx-auto   ">
+        <div className="flex md:flex-row flex-row  justify-between   items-center gap-5 p-5 container mx-auto   ">
             <div className="block md:hidden " onClick={clicked}><Hamburger /></div>
             <button  className="md:p-[15px] p-[10px]  rounded-3xl bg-[#F9CE29] lg:text-[14px] text-[12px]  ">احصل على التطبيق الأن</button>
             <ul className="  flex-row justify-center items-center gap-8 lg:text-[14px] text-[12px] hidden md:flex ">

@@ -37,7 +37,7 @@ const Guide = () => {
                 </div>
             </div>
             <div className='grid  grid-cols-3  justify-between gap-12 items-center mt-10'>
-                <div className='bg-bg1 bg-cover bg-center'><Image src='/orders.png' className='md:w-[324px] w-[150px] ' /></div>
+                <div className='bg-bg1 bg-cover bg-center '><Image src='/orders.png' className='md:w-[324px] w-[150px] ' /></div>
                 <div className='bg-bg2 bg-cover bg-center'><Image src='/dafea.png' className='md:w-[324px]  w-[150px]'  /></div>
                 <div className='bg-bg3 bg-cover bg-center'><Image src='/login.png' className='md:w-[324px]  w-[150px]' /></div>
             </div>
