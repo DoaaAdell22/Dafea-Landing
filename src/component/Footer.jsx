@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <div className="container mx-auto px-5 py-10">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5   gap-3  items-start  sm:text-end">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5  gap-6  sm:gap-3  items-start  sm:text-end">
         <div className="flex flex-col gap-3 items-end text-end col-span-2 lg:col-span-1 xl:min-w-[280px]">
           <h1 className="text-[18px] ">اشترك الان بالبريد ليصلك كل جديد</h1>
           <hr className="w-10 h-[2px] bg-[#000000]" />
@@ -23,11 +23,11 @@ const Footer = () => {
 
         </div>
 
-        <div className="flex flex-col gap-3 items-end text-end">
+        <div className="flex flex-col gap-3 items-center sm:items-end text-center sm:text-end">
           <h1 className="text-[16px] md:text-[18px]">تواصل معنا</h1>
           <hr className="w-10 h-[2px] bg-[#000000]" />
           <div className="flex flex-col gap-4">
-            <a href="#" className="flex justify-end items-end text-end gap-2">
+            <a href="#" className="flex sm:justify-end justify-center items-center sm:items-end sm:text-end gap-2">
               <span className="font-normal">اتصل بنا الان</span>
               <span className="font-normal text-[#F9CE29]">
                 <FaPhone />
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-3 items-end text-end">
+        <div className="flex flex-col gap-3 items-center sm:items-end text-center sm:text-end">
           <h1 className="text-[16px] md:text-[18px]">علاقات المستثمرين</h1>
           <hr className="w-10 h-[2px] bg-[#000000]" />
           <div className="flex flex-col gap-4 text-[12px] md:text-[15px]">
@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-3 items-end text-end">
+        <div className="flex flex-col gap-3 items-center sm:items-end text-center sm:text-end">
           <h1 className="text-[16px] md:text-[18px]">المستهلك</h1>
           <hr className="w-10 h-[2px] bg-[#000000]" />
           <div className="flex flex-col gap-4 text-[12px] md:text-[15px]">
@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-3  items-end text-end">
+        <div className="flex flex-col gap-3  items-center sm:items-end text-center sm:text-end">
           <h1 className="text-[16px] md:text-[18px]">الشركة</h1>
           <hr className="w-10 h-[2px] bg-[#000000]" />
           <div className="flex flex-col gap-4 text-[12px] md:text-[15px]">

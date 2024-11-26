@@ -84,7 +84,77 @@
 
 .no-hover:hover {
   background-color: #F9CE29 !important; 
-  border : none !important ;
-  color : black !important ;
 }
 
+.star {
+  position: relative;
+}
+
+.star::after {
+  position: absolute;
+  content: '';
+  background-image: url('/public/Star 6.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 50px;
+  height: 50px;
+  left: 84%;
+  top: 68%;
+}
+.star::before {
+  position: absolute;
+  content: '';
+  background-image: url('/public/star2.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 40px;
+    height: 40px;
+    left: 5%;
+    top: 15%;
+}
+
+.downloading {
+  position: relative;
+}
+
+.downloading::after {
+  position: absolute;
+  content: '';
+  background-image: url('/public/downloading.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 300px;
+  height: 350px;
+  left: 10%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+.downloading::before {
+  position: absolute;
+  content: '';
+  background-image: url('/public/downloading.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 300px;
+  height: 250px;
+  right: -4%;
+  top: 0%;
+  transform: rotate(-179deg);
+}
+
+/* @media (max-width: 768px) {
+  .downloading::after {
+    width: 60vw;
+    height: 40vh;
+    left: 20%;
+    top: 60%;
+  }
+
+  .downloading::before {
+    width: 50vw;
+        height: 28vh;
+        right: -23px;
+        top: 0%;
+    }
+  
+} */

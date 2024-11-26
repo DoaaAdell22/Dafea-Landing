@@ -2,8 +2,8 @@ import React from 'react'
 import { Image } from 'antd'
 const Download = () => {
   return (
-    <div className='bg-[black]  '>
-        <div className='px-5 py-20 mt-[-5px] mx-auto container flex flex-col justify-center items-center gap-8'>
+    <div className='bg-[black] downloading'>
+        <div className='px-5 py-20 mt-[-5px] mx-auto container flex flex-col justify-center items-center gap-8 star'>
             <img src='/Soft Star.png' className='w-10 h-10' />
             <div className='felx flex-col items-center justify-center text-center  lg:w-[588px]'>
                 <h1 className='md:text-[32px] text-[20px] text-[#F9CE29]'>مميزاتنا لا تتوقف عند هذا الحد! هناك المزيد والمزيد لعملائنا المميزين</h1>
