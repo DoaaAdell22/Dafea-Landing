@@ -143,19 +143,20 @@
   z-index: 10;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .downloading::after {
-    width: 60vw;
-    height: 40vh;
-    left: 20%;
-    top: 60%;
-  }
-
-  .downloading::before {
-    width: 50vw;
-        height: 28vh;
-        right: -23px;
-        top: 0%;
+    width: 30vw;
+        height: 30vh;
+        left: 15%;
+        top: 97%;
     }
   
-} */
+
+  .downloading::before {
+    width: 28vw;
+    height: 18vh;
+    right: 2px;
+    top: 0%;
+    }
+  
+}
