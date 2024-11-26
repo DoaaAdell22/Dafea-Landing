@@ -15,7 +15,7 @@ const Download = () => {
                 <h2 className='text-[#F9CE29] md:text-[28px] text-[20px]'>حمل تطبيق دافع الآن</h2> 
                 </div>
                 <div className='flex justify-center items-center gap-5'>
-                    <a><img src='/Badge.png' className=' h-10 w-18' /></a>
+                    <a><img src='/Badge.png' className=' h-10 w-18 relative z-20' /></a>
                     <a><img src='/appstore.png' className=' h-10 w-18' /></a>
                     <a><img src='/googleplay.png' className=' h-10 w-18' /></a>
                 </div>
