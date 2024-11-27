@@ -8,12 +8,12 @@ import Wallet from "./Wallet"
 const Home = () => {
   return (
     <div>
-        <Landing />
-        <About />
-        <Wallet />
-        <Orders />
-        <Guide />
-        <Download />
+        <Landing  id="Landing" />
+        <About  id="About"/>
+        <Wallet  id="Wallet"/>
+        <Orders  id="Orders"/>
+        <Guide  id="Guide"/>
+        <Download  id="Download"/>
     </div>
   )
 }

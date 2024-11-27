@@ -2,7 +2,7 @@ import React from 'react'
 import { Image } from 'antd'
 const Guide = () => {
   return (
-    <div className="bg-[rgba(249,206,41,0.1)]">
+    <div id="Guide" className="bg-[rgba(249,206,41,0.1)]">
         <div className='p-5 pb-0 mx-auto container flex flex-col justify-center items-center'>
             <div className='flex flex-col justify-center items-center gap-5 text-center'>
                 <h1 className='text-[#F9CE29] md:text-[18px] text-[20px]'>كيفية تشغيل التطبيق</h1>

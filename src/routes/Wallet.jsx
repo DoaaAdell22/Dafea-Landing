@@ -3,7 +3,7 @@ import { Image  } from "antd"
 
 const Wallet = () => {
   return (
-    <div className="bg-[rgba(249,206,41,0.1)]">
+    <div id='Wallet' className="bg-[rgba(249,206,41,0.1)]">
         <div className="container mx-auto p-5 flex  sm:flex-row flex-col-reverse justify-between items-center gap-4 ">
             <div><Image src="/wallet.png" className="sm:w-[50%] w-[30%] "/></div>
 

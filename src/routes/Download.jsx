@@ -2,7 +2,7 @@ import React from 'react'
 import { Image } from 'antd'
 const Download = () => {
   return (
-    <div className='bg-[black] downloading'>
+    <div id="Download" className='bg-[black] downloading'>
         <div className='px-5 py-20 mt-[-5px] mx-auto container flex flex-col justify-center items-center gap-8 star'>
             <img src='/Soft Star.png' className='w-10 h-10' />
             <div className='felx flex-col items-center justify-center text-center  lg:w-[588px]'>

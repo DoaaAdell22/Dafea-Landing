@@ -1,13 +1,12 @@
-import { Button , Image } from "antd"
+import {   Image } from "antd"
 import { motion } from "framer-motion"
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Hamburger from 'hamburger-react'
-import { useLocation } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const Header = () => {
     const [isOpen, setOpen] = useState(false)
-    const { pathname } = useLocation();
 
     const list = {
         hidden: { opacity: 0, y: -50 },
@@ -29,13 +28,13 @@ const Header = () => {
     <div className="bg-[rgba(249,206,41,0.1)]">
         <div className="flex md:flex-row flex-row  justify-between   items-center gap-5 p-5 container mx-auto   ">
             <div className="block md:hidden " onClick={clicked}><Hamburger /></div>
-            <button  className="md:p-[15px] p-[10px]  rounded-3xl bg-[#F9CE29] lg:text-[14px] text-[12px]  ">احصل على التطبيق الأن</button>
-            <ul className="  flex-row justify-center items-center gap-8 lg:text-[14px] text-[12px] hidden md:flex ">
-            <NavLink to="contact" >  كيفية تشغيل التطبيق</NavLink>
-            <NavLink to="more" >  طلبات الدفع </NavLink>
-            <NavLink to='building'      >  المحفظة</NavLink>
-            <NavLink  to='Description'    > لمحة عن التطبيق </NavLink>
-            <NavLink to='/'  >  الرئيسية </NavLink>
+            <button  className="md:p-[12px] p-[10px]  rounded-3xl bg-[#F9CE29] lg:text-[14px] text-[12px]  ">احصل على التطبيق الأن</button>
+            <ul className=" flex-row justify-center items-center gap-8 lg:text-[14px] text-[12px] hidden md:flex cursor-pointer">
+                <Link to="Guide" smooth={true} duration={500}>كيفية تشغيل التطبيق</Link>
+                <Link to="Orders" smooth={true} duration={500}>طلبات الدفع</Link>
+                <Link to="Wallet" smooth={true} duration={500}>المحفظة</Link>
+                <Link to="About" smooth={true} duration={500}>لمحة عن التطبيق</Link>
+                <Link to="Landing" smooth={true} duration={500}>الرئيسية</Link>
             </ul>
             <div className="flex flex-row justify-center items-center " >
                 <Image src='/logoDafea.png' className="sm:w-[114px] sm:h-[48px] " width={60} height={30}/>
@@ -47,12 +46,12 @@ const Header = () => {
             isOpen ?  <motion.ul   initial="hidden"
             animate="visible"
             exit="exit"
-            variants={list} className="flex flex-col-reverse p-6  gap-5 text-end  md:hidden">
-            <motion.li variants={item}><NavLink to="contact" >  كيفية تشغيل التطبيق</NavLink></motion.li>
-            <motion.li variants={item}><NavLink to="more" >  طلبات الدفع </NavLink></motion.li>
-            <motion.li variants={item}><NavLink to='building'      >  المحفظة</NavLink></motion.li>
-            <motion.li variants={item}><NavLink  to='Description'    > لمحة عن التطبيق </NavLink></motion.li>
-            <motion.li  variants={item}><NavLink to='/'  >  الرئيسية </NavLink></motion.li>
+            variants={list} className="flex flex-col-reverse p-6  gap-5 text-end  md:hidden cursor-pointer">
+            <motion.li variants={item}><Link to="Guide" smooth={true} duration={500}  >  كيفية تشغيل التطبيق</Link></motion.li>
+            <motion.li variants={item}><Link to="Orders" smooth={true} duration={500}  >  طلبات الدفع </Link></motion.li>
+            <motion.li variants={item}><Link to="Wallet" smooth={true} duration={500}     >  المحفظة</Link></motion.li>
+            <motion.li variants={item}><Link  to="About" smooth={true} duration={500}    > لمحة عن التطبيق </Link></motion.li>
+            <motion.li  variants={item}><Link to="Home" smooth={true} duration={500} >  الرئيسية </Link></motion.li>
           </motion.ul> : ''
 
           }

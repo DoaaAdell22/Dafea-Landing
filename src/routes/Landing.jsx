@@ -4,7 +4,7 @@ import { GoArrowLeft } from "react-icons/go";
 
 const Landing = () => {
     return (
-        <div className="bg-[rgba(249,206,41,0.1)]">
+        <div id="Landing" className="bg-[rgba(249,206,41,0.1)]">
             <div className="container mx-auto p-5 flex  sm:flex-row flex-col-reverse justify-between items-center gap-4 ">
                 <div><Image src="/landing.png" className="sm:w-[50%] w-[30%] "/></div>
                 <div className="flex flex-col sm:items-end gap-4 sm:w-[50%] w-auto  text-center sm:text-end">
