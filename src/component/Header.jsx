@@ -28,7 +28,7 @@ const Header = () => {
     <div className="bg-[rgba(249,206,41,0.1)]">
         <div className="flex md:flex-row flex-row  justify-between   items-center gap-5 p-5 container mx-auto   ">
             <div className="block md:hidden " onClick={clicked}><Hamburger /></div>
-            <button  className="md:p-[12px] p-[10px]  rounded-3xl bg-[#F9CE29] lg:text-[14px] text-[12px]  ">احصل على التطبيق الأن</button>
+            <button  className="md:p-[11px] p-[10px]  rounded-3xl bg-[#F9CE29] lg:text-[14px] text-[12px]  ">احصل على التطبيق الأن</button>
             <ul className=" flex-row justify-center items-center gap-8 lg:text-[14px] text-[12px] hidden md:flex cursor-pointer">
                 <Link to="Guide" smooth={true} duration={500}>كيفية تشغيل التطبيق</Link>
                 <Link to="Orders" smooth={true} duration={500}>طلبات الدفع</Link>
