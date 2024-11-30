@@ -27,14 +27,14 @@ const Footer = () => {
           <h1 className="sm:text-[16px] text-[12px] md:text-[18px]">تواصل معنا</h1>
           <hr className="w-10 h-[2px] bg-[#000000]" />
           <div className="flex flex-col gap-4">
-            <a href="#" className=" flex sm:flex-row flex-col-reverse justify-end items-end  text-end gap-2">
+            <a href="#" className=" flex justify-end items-end  text-end gap-2">
               <span className="font-normal text-[10px] sm:text-[15px]">اتصل بنا الان</span>
               <span className="font-normal  text-[#F9CE29]">
                 <FaPhone />
               </span>
             </a>
             <a className='text-[10px] sm:text-[15px]' href="tel:+966847514768">+966847514768</a>
-            <a href="#" className="flex sm:flex-row flex-col-reverse justify-end items-end text-end gap-2">
+            <a href="#" className="flex justify-end items-end text-end gap-2">
               <span className="font-normal text-[10px] sm:text-[15px]">ارسل عبر البريد الالكتروني</span>
               <span className="text-[#F9CE29]">
                 <MdEmail />
