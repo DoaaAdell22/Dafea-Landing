@@ -30,11 +30,11 @@ const Header = () => {
             <div className="block md:hidden " onClick={clicked}><Hamburger /></div>
             <button  className="md:p-[11px] p-[10px]  rounded-3xl bg-[#F9CE29] lg:text-[14px] text-[12px]  ">احصل على التطبيق الأن</button>
             <ul className=" flex-row justify-center items-center gap-8 lg:text-[14px] text-[12px] hidden md:flex cursor-pointer">
-                <Link to="Guide" smooth={true} duration={500}>كيفية تشغيل التطبيق</Link>
-                <Link to="Orders" smooth={true} duration={500}>طلبات الدفع</Link>
-                <Link to="Wallet" smooth={true} duration={500}>المحفظة</Link>
-                <Link to="About" smooth={true} duration={500}>لمحة عن التطبيق</Link>
-                <Link to="Landing" smooth={true} duration={500}>الرئيسية</Link>
+                <Link to="Guide" smooth={true} duration={500} className="hover:text-[#F9CE29]">كيفية تشغيل التطبيق</Link>
+                <Link to="Orders" smooth={true} duration={500} className="hover:text-[#F9CE29]">طلبات الدفع</Link>
+                <Link to="Wallet" smooth={true} duration={500} className="hover:text-[#F9CE29]">المحفظة</Link>
+                <Link to="About" smooth={true} duration={500} className="hover:text-[#F9CE29]">لمحة عن التطبيق</Link>
+                <Link to="Landing" smooth={true} duration={500} className="hover:text-[#F9CE29]">الرئيسية</Link>
             </ul>
             <div className="flex flex-row justify-center items-center " >
                 <Image src='/logoDafea.png' className="sm:w-[114px] sm:h-[48px] " width={60} height={30}/>

@@ -145,18 +145,19 @@
 
 @media (max-width: 768px) {
   .downloading::after {
-    width: 30vw;
-        height: 30vh;
+    width: 300px;
+        height: 350px ;
         left: 15%;
         top: 97%;
     }
   
 
   .downloading::before {
-    width: 28vw;
-    height: 18vh;
+    width: 260px;
+      height: 250px ;
     right: 2px;
     top: 0%;
     }
   
 }
+

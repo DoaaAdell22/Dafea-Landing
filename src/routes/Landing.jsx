@@ -9,8 +9,8 @@ const Landing = () => {
                 <div><Image src="/landing.png" className="sm:w-[50%] w-[30%] "/></div>
                 <div className="flex flex-col sm:items-end gap-4 sm:w-[50%] w-auto  text-center sm:text-end">
                     <h1 className="text-[#F9CE29] md:text-[24px] text-[26px]   ">دافع</h1>
-                    <p className="lg:text-[40px] text-[20px] text-[#292D32]">إدارة معاملاتك المالية بكل سهولة وأمان مع دافع</p>
-                    <p className="text-[15px] text-[#333333]">تتيح دافع للمستخدمين إدارة عملياتهم المالية بكل سهولة وأمان.
+                    <p className="lg:text-[40px] text-[18px] text-[#292D32]">إدارة معاملاتك المالية بكل سهولة وأمان مع دافع</p>
+                    <p className="text-[15px] text-[#333333] ">تتيح دافع للمستخدمين إدارة عملياتهم المالية بكل سهولة وأمان.
                     توفر دافع مجموعة من خدمات الدفع والحلول للأفراد والشركات على حد سواء. تتيح دافع للمستخدمين 
                     إدارة عملياتهم المالية بكل سهولة وأمان. توفر دافع مجموعة من خدمات الدفع والحلول للأفراد 
                     والشركات على حد سواء. تتيح دافع للمستخدمين إدارة عملياتهم المالية بكل سهولة
@@ -20,8 +20,8 @@ const Landing = () => {
                             <GoArrowLeft className="w-5 h-5"/>
                             <div className=""> تواصل مع خدمة العملاء</div>  
                         </Link>
-                        <Button className="lg:p-[20px] p-[10px]  rounded-3xl bg-[#F9CE29] lg:text-[14px] text-[12px] ">احصل على التطبيق الأن</Button> 
-                    </div>
+                        <button  className="md:p-[11px] p-[8px]  rounded-3xl bg-[#F9CE29] lg:text-[14px] text-[12px]  ">احصل على التطبيق الأن</button>
+                        </div>
 
                 </div>
             </div>

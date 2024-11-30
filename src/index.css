@@ -35,16 +35,4 @@ scroll-behavior: smooth;
 
 }
 
-.download {
-  position: relative;
-  
-}
-.download::after {
-  position: absolute;
-  content: '';
-  background-image: url('/public/download.png');
-  left: 50%;
-  top: 50%;
-  transform: translate(-50% , -50%) ;
 
-}
