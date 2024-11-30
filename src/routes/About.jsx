@@ -12,7 +12,7 @@ const About = () => {
                         <li className='flex flex-col gap-2'>
                             <div className='flex flex-col-reverse sm:flex-row sm:justify-end justify-center items-center gap-3'>
                                 <span className='text-[#222222] md:text-[18px]'>تحكم كامل بلمسة واحدة</span>
-                                <Image src='/star-05.png' />
+                                <img src='/star-05.png' />
 
                             </div>
                             <p className='text-[#333333]'>عند تسجيل الدخول إلى تطبيق دافع، ستجد واجهة مستخدم بسيطة وسهلة الاستخدام تتيح لك الوصول إلى جميع خدماتنا بكل سهولة. من الصفحة الرئيسية، يمكنك:</p>
@@ -20,7 +20,7 @@ const About = () => {
                         <li className='flex flex-col gap-2'>
                             <div className='flex flex-col-reverse sm:flex-row  sm:justify-end justify-center items-center gap-3'>
                                 <span className='text-[#222222] md:text-[18px]'>ادفع كل مشترياتك عبر دافع</span>
-                                <Image src='/cube-04.png' />
+                                <img src='/cube-04.png' />
 
                             </div>
                             <p className='text-[#333333]'>إن منصة دافع الرقمية تتيح لك إتمام جميع المعاملات المالية على الصعيد المحلي والدولي بكل سهولة وامان تام دون الحاجة إلى البنك أو النقد.</p>
@@ -28,14 +28,14 @@ const About = () => {
                         <li className='flex flex-col gap-2'>
                             <div className='flex flex-col-reverse sm:flex-row  sm:justify-end justify-center items-center gap-3'>
                                 <span className='text-[#222222] md:text-[18px]'>معلوماتك في أمان مع دافع</span>
-                                <Image src='/cube-02.png' />
+                                <img src='/cube-02.png' />
                             </div>
                             <p className='text-[#333333] '>شارك معلوماتك وحساباتك معنا بكل امان وثقة، لن نستخدمها إلا لتقديم الخدمات لك. حيث نقوم بالربط بين حساباتك المالية بشكل آمن وسري.</p>
                         </li>
                     </ul>
                 </div>
                 </div>
-                <div><Image src="/about.png" className="sm:w-[50%] w-[30%] "/></div>
+                <div><img src="/about.png" className="sm:w-[50%] w-full  "/></div>
             </div>
         
         </div>

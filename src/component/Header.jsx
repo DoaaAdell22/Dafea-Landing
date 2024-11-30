@@ -37,7 +37,7 @@ const Header = () => {
                 <Link to="Landing" smooth={true} duration={500} className="hover:text-[#F9CE29]">الرئيسية</Link>
             </ul>
             <div className="flex flex-row justify-center items-center " >
-                <Image src='/logoDafea.png' className="sm:w-[114px] sm:h-[48px] " width={60} height={30}/>
+                <img src='/logoDafea.png' className="sm:w-[114px] sm:h-[48px] " width={60} height={30}/>
             </div>
             
             

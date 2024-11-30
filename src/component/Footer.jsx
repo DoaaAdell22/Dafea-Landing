@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="container mx-auto px-5 py-10">
       <div className="grid  xl:grid-cols-5 gap-8  xl:gap-6 items-start sm:text-end">
-        <div className="flex flex-col gap-3 items-end text-end  col-span-4 xl:col-span-1 xl:min-w-[280px]">
+        <div className="flex flex-col gap-3 items-end text-end  col-span-3 xl:col-span-1 xl:min-w-[280px]">
           <h1 className="text-[18px] ">اشترك الان بالبريد ليصلك كل جديد</h1>
           <hr className="w-10 h-[2px] bg-[#000000]" />
           <p className='sm:text-[15px] w-full'>
@@ -23,24 +23,28 @@ const Footer = () => {
 
         </div>
 
-        <div className="flex flex-col gap-3  items-end  text-end">
-          <h1 className="sm:text-[16px] text-[12px] md:text-[18px]">تواصل معنا</h1>
-          <hr className="w-10 h-[2px] bg-[#000000]" />
-          <div className="flex flex-col gap-4">
-            <a href="#" className=" flex justify-end items-end  text-end gap-2">
-              <span className="font-normal text-[10px] sm:text-[15px]">اتصل بنا الان</span>
-              <span className="font-normal  text-[#F9CE29]">
-                <FaPhone />
-              </span>
-            </a>
-            <a className='text-[10px] sm:text-[15px]' href="tel:+966847514768">+966847514768</a>
-            <a href="#" className="flex justify-end items-end text-end gap-2">
-              <span className="font-normal text-[10px] sm:text-[15px]">ارسل عبر البريد الالكتروني</span>
-              <span className="text-[#F9CE29]">
-                <MdEmail />
-              </span>
-            </a>
-            <a className='text-[10px] sm:text-[15px]' href="mailto:Dafea@info.com ">Dafea@info.com</a>
+        <div className=" flex-col gap-3  items-end  text-end flex col-span-3 lg:col-span-1">
+          <h1 className="sm:text-[16px] text-[12px] md:text-[18px] hidden lg:block">تواصل معنا</h1>
+          <hr className="w-10 h-[2px] bg-[#000000] hidden lg:block" />
+          <div className="flex flex-col  justify-between gap-6">
+            <div className='flex flex-row-reverse lg:flex-col  gap-2'>
+              <a href="#" className=" flex  justify-end items-center  text-end gap-2">
+                <span className="  sm:text-[15px]"> : اتصل بنا الان</span>
+                <span className="  text-[#F9CE29]">
+                  <FaPhone />
+                </span>
+              </a>
+              <a className=' sm:text-[15px]' href="tel:+966847514768">+966847514768</a>
+            </div>
+            <div className='flex flex-row-reverse lg:flex-col  gap-2'>
+              <a href="#" className="flex  justify-end items-center text-end gap-2">
+                <span className="  sm:text-[15px]"> : ارسل عبر البريد الالكتروني  </span>
+                <span className="text-[#F9CE29]">
+                  <MdEmail />
+                </span>
+              </a>
+              <a className=' sm:text-[15px]' href="mailto:Dafea@info.com ">Dafea@info.com</a>
+            </div>
           </div>
         </div>
         <div className="flex flex-col gap-3 items-end  text-end  ">
@@ -52,6 +56,7 @@ const Footer = () => {
             <span>البيانات الصحفية</span>
             <span>الفعاليات والأحداث</span>
           </div>
+
         </div>
 
         <div className="flex flex-col gap-3 items-end text-end ">
@@ -77,6 +82,7 @@ const Footer = () => {
             <span>فرص وظيفية</span>
           </div>
         </div>
+        
       </div>
 
       <hr className="w-full h-[2px] my-4" />

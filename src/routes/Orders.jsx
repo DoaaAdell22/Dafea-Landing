@@ -14,7 +14,7 @@ const Orders = () => {
                         <li className='flex flex-col gap-2'>
                             <div className='flex flex-col-reverse sm:flex-row  sm:justify-end justify-center items-center gap-3'>
                                 <span className='text-[#222222] md:text-[18px]'>  إدارة سهلة للطلبات   </span>
-                                <Image src='/cube-04.png' />
+                                <img src='/cube-04.png' />
 
                             </div>
                             <p className='text-[#333333]'>تتيح لك صفحة الطلبات الحالية على منصة دافع إدارة جميع الطلبات بسهولة فائقة. بضغطة زر واحدة، يمكنك الوصول إلى كافة التفاصيل اللازمة لكل طلب، بما في ذلك تاريخ الطلب، المبلغ المطلوب، وحالة التنفيذ الحالية.</p>
@@ -22,14 +22,14 @@ const Orders = () => {
                         <li className='flex flex-col gap-2'>
                             <div className='flex flex-col-reverse sm:flex-row  sm:justify-end justify-center items-center gap-3'>
                                 <span className='text-[#222222] md:text-[18px]'> تفاصيل شاملة لكل طلب   </span>
-                                <Image src='/cube-02.png' />
+                                <img src='/cube-02.png' />
                             </div>
                             <p className='text-[#333333] '>تتضمن صفحة الطلبات تفاصيل شاملة لكل طلب، مثل المعاملات السابقة والتفاصيل المالية، مما يسهل عليك إدارة وتتبع كافة النشاطات المالية الخاصة بك بكل دقة وسهولة.</p>
                         </li>
                     </ul>
                 </div>
                 </div>
-                <div><Image src="/order.png" className="sm:w-[50%] w-[30%] "/></div>
+                <div><img src="/order.png" className="sm:w-[50%] w-full  "/></div>
             </div>
         
         </div>
