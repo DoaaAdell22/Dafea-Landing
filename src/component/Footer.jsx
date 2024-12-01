@@ -23,11 +23,11 @@ const Footer = () => {
 
         </div>
 
-        <div className=" flex-col gap-3  items-end  text-end flex col-span-3 lg:col-span-1">
-          <h1 className="sm:text-[16px] text-[12px] md:text-[18px] hidden lg:block">تواصل معنا</h1>
-          <hr className="w-10 h-[2px] bg-[#000000] hidden lg:block" />
+        <div className=" flex-col gap-3  items-end  text-end flex col-span-3 xl:col-span-1">
+          <h1 className="sm:text-[16px] text-[12px] md:text-[18px] hidden xl:block">تواصل معنا</h1>
+          <hr className="w-10 h-[2px] bg-[#000000] hidden xl:block" />
           <div className="flex flex-col  justify-between gap-6">
-            <div className='flex flex-row-reverse lg:flex-col  gap-2'>
+            <div className='flex flex-row-reverse xl:flex-col  gap-2'>
               <a href="#" className=" flex  justify-end items-center  text-end gap-2">
                 <span className="  sm:text-[15px]"> : اتصل بنا الان</span>
                 <span className="  text-[#F9CE29]">
@@ -36,8 +36,8 @@ const Footer = () => {
               </a>
               <a className=' sm:text-[15px]' href="tel:+966847514768">+966847514768</a>
             </div>
-            <div className='flex flex-row-reverse lg:flex-col  gap-2'>
-              <a href="#" className="flex  justify-end items-center text-end gap-2">
+            <div className='flex flex-row-reverse xl:flex-col  gap-2'>
+              <a href="#" className="flex  justify-center items-center text-end gap-2">
                 <span className="  sm:text-[15px]"> : ارسل عبر البريد الالكتروني  </span>
                 <span className="text-[#F9CE29]">
                   <MdEmail />
@@ -48,9 +48,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col gap-3 items-end  text-end  ">
-          <h1 className="sm:text-[16px] text-[12px] md:text-[18px] min-w-[95px] sm:w-auto">علاقات المستثمرين</h1>
+          <h1 className="sm:text-[16px] text-[13px] md:text-[18px] min-w-[95px] sm:w-auto">علاقات المستثمرين</h1>
           <hr className="w-10 h-[2px] bg-[#000000]" />
-          <div className="flex flex-col gap-4 text-[10px] sm:text-[15px]">
+          <div className="flex flex-col gap-5 sm:gap-4 text-[11px] sm:text-[15px]">
             <span>الحوكمة</span>
             <span>البيانات المالية</span>
             <span>البيانات الصحفية</span>
@@ -60,9 +60,9 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-3 items-end text-end ">
-          <h1 className="sm:text-[16px] text-[12px] md:text-[18px]">المستهلك</h1>
+          <h1 className="sm:text-[16px] text-[13px] md:text-[18px]">المستهلك</h1>
           <hr className="w-10 h-[2px] bg-[#000000]" />
-          <div className="flex flex-col gap-4 text-[10px] sm:text-[15px]">
+          <div className="flex flex-col gap-3  sm:gap-4 text-[11px] sm:text-[15px]">
             <span>سداد الفواتير</span>
             <span>الخدمات المالية</span>
             <span>المكافآت والولاء</span>
@@ -72,9 +72,9 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-3  items-end  text-end">
-          <h1 className="sm:text-[16px] text-[12px] md:text-[18px]">الشركة</h1>
+          <h1 className="sm:text-[16px] text-[13px] md:text-[18px]">الشركة</h1>
           <hr className="w-10 h-[2px] bg-[#000000]" />
-          <div className="flex flex-col gap-4 text-[10px] sm:text-[15px]">
+          <div className="flex flex-col gap-3 sm:gap-4 text-[11px] sm:text-[15px]">
             <span>الرئيسية</span>
             <span>عنا</span>
             <span>الشروط والاحكام</span>

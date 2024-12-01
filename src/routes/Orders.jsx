@@ -29,7 +29,7 @@ const Orders = () => {
                     </ul>
                 </div>
                 </div>
-                <div><img src="/order.png" className="sm:w-[50%] w-full  "/></div>
+                <div><img src="/order.png" className=" w-full  "/></div>
             </div>
         
         </div>

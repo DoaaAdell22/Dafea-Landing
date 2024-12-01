@@ -35,7 +35,7 @@ const About = () => {
                     </ul>
                 </div>
                 </div>
-                <div><img src="/about.png" className="sm:w-[50%] w-full  "/></div>
+                <div><img src="/about.png" className=" w-full  "/></div>
             </div>
         
         </div>
