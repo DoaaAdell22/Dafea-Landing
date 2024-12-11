@@ -9,13 +9,13 @@ const Footer = () => {
   return (
     <div className="container mx-auto px-5 py-10">
       <div className="grid  xl:grid-cols-5 gap-8  xl:gap-6 items-start sm:text-end">
-        <div className="flex flex-col gap-3 items-end text-end  col-span-3 xl:col-span-1 xl:min-w-[280px]">
+        <div className="flex flex-col gap-3 items-end text-end  col-span-3 xl:col-span-1 xl:min-w-[280px] w-[100%]">
           <h1 className="text-[18px] ">اشترك الان بالبريد ليصلك كل جديد</h1>
           <hr className="w-10 h-[2px] bg-[#000000]" />
           <p className='sm:text-[15px] w-full'>
             ادخل بريدك الالكتروني لدينا للاشتراك ليصلك كل جديد عن اخر عروضنا ومنتجاتنا
           </p>
-          <Space.Compact style={{ width: 300  , direction:'rtl' }}>
+          <Space.Compact style={{ maxWidth: 300 , width : '100%'  , direction:'rtl' }}>
         <Input placeholder='ارسل البريد الالكترونى'   />
           <Button  className='bg-[#F9CE29]  text-[black] hover:bg-[#F9CE29]'>اشتراك</Button>
           </Space.Compact>
@@ -103,7 +103,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex sm:gap-2 justify-between gap-1 items-center">
-          <span className="text-[10px] md:text-[14px]">حقوق النشر © 2024 دافع كل الحقوق محفوظة</span>
+          <span className="text-[10px] md:text-[14px] text-end">حقوق النشر © 2024 دافع كل الحقوق محفوظة</span>
           <img src="/logoDafea.png" className="md:w-14 md:h-7 w-10 h-5" />
         </div>
       </div>
