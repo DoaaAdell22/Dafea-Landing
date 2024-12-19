@@ -8,7 +8,7 @@ const Wallet = () => {
             <div><img src="/wallet.png" className=" w-full  "/></div>
             <div className="flex flex-col sm:items-end gap-4 sm:w-[50%] w-auto  text-center sm:text-end">
                 <div className=' flex flex-col gap-5 items-center  sm:items-end sm:text-end text-center'>
-                    <h1 className="text-[#F9CE29] md:text-[24px] text-[26px]   ">  المحفظة</h1>
+                    <h1 className="text-[#F9CE29] md:text-[24px] text-[26px] ">  المحفظة</h1>
                     <p className="lg:text-[32px] text-[18px] text-[#292D32]">    إدارة أموالك بكل سهولة  </p>
                     <p className='text-[#333333]'>محفظة دافع الرقمية تتيح لك إدارة أموالك بكل سهولة وأمان، مما يمكنك من إتمام جميع المعاملات المالية اليومية والدورية بسرعة وسهولة.</p>
                     <ul className='flex flex-col gap-6'>
