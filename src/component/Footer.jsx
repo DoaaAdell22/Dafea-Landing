@@ -17,8 +17,8 @@ const Footer = () => {
           </p>
           <Space.Compact style={{ maxWidth: 300 , width : '100%'  , direction:'rtl' }}>
         <Input placeholder='ارسل البريد الالكترونى'   />
-          <Button  className='bg-[#F9CE29]  text-[black] hover:bg-[#F9CE29]'>اشتراك</Button>
-          </Space.Compact>
+        <Button className="sub-button bg-[#F9CE29] focus:border-none">اشتراك</Button>
+        </Space.Compact>
           
 
         </div>
